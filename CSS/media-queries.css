@@ -31,11 +31,29 @@ body {
     img {
         width: 339px;
         height: 224px;
-        margin: 2em auto;
-        padding: 10px;
+        margin: 10px auto;
+        /*padding: 10px;*/
         display: block;
     }
     section {
         clear: both;
+    }
+    .nav-links{
+        text-align: center;
+        list-style: none;
+
+    }
+    li{
+        margin: 10px auto;
+        background-color: #CCCCCC;
+        padding: 1em;
+        width: 339px;
+    }
+    #main h2{
+        width: px;
+        margin: auto;
+
+
+
     }
 }
