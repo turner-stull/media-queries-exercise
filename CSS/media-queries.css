@@ -1,16 +1,17 @@
 
-body {
-    width: 100%;
-    height: 100%;
-}
+
 
 @media screen and (max-width: 959px) {
+    body {
+        width: 100%;
+        height: 100%;
+    }
     .alert-info {
         background-color: #CCFFFF;
         text-align: center;
         border: 1px solid lightgray;
         padding: 10px;
-        width: 90%;
+        width: 50%;
         /*position: absolute;*/
         /*display: inline-block;*/
         margin: 1em auto;
@@ -20,10 +21,11 @@ body {
         font-size: 3em;
     }
     .header-img {
-        position: relative;
         display: block;
-        padding: 10px;
-        width: 90%;
+        /*padding: 10px;*/
+        width: 339px;
+        margin-left: auto;
+        margin-right: auto;
         /*margin-left: 2em auto;*/
         /*margin-right: 2em auto;*/
 
@@ -31,29 +33,64 @@ body {
     img {
         width: 339px;
         height: 224px;
-        margin: 10px auto;
-        /*padding: 10px;*/
-        display: block;
-    }
-    section {
-        clear: both;
+        /*margin-left: auto;*/
+        /*margin-right: auto:;*/
+        /*margin-left: auto;*/
+        /*display: table;*/
+        position: relative;
     }
     .nav-links{
+        width: 339px;
         text-align: center;
         list-style: none;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        display: block;
+
 
     }
     li{
-        margin: 10px auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        /*position: relative;*/
         background-color: #CCCCCC;
-        padding: 1em;
-        width: 339px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 100%;
     }
     #main h2{
-        width: px;
+        width: 339px;
         margin: auto;
-
-
-
     }
+    #main p {
+        width: 339px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px
+    }
+    .sub-section {
+        font-style: italic;
+        width: 339px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    footer {
+        width: 339px;
+        text-align: center;
+        font-size: 0.8em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    body {
+        width: auto;
+        height: auto;
+    }
+
 }
