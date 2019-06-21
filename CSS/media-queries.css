@@ -143,28 +143,30 @@
     }
     section {
         display: inline;
+        width: 100%;
     }
     section.main{
         float: left;
-        width: calc(75% - 25px);
+        width: calc(75% - 50px);
         height: 500px;
         padding-right: 25px;
-        margin-left: auto;
+        margin-left: 10px;
         position: relative;
         left: 15px;
 
     }
     section.sub-section{
         float: left;
-        width: calc(25% - 25px);
+        width: calc(25% - 35px);
         height: 500px;
         padding-left: 25px;
-        margin-right: auto;
+        margin-right: 10px;
         position: relative;
         right: 15px;
 
     }
     footer {
+
         margin-right: auto;
         position: relative;
         text-align: center;
